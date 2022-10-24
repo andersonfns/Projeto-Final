@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.contenedor{ /*Definições de preenchimento, altura e margem do site*/
+    padding: 60px 0;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{ /*Titulo*/
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header{ /*Menu e topo da página*/
+    width: 100%;
+    height: 600px;
+    background: #076585; 
+     /*Efeito degrade no menu*/
+    background: -webkit-linear-gradient(to right, rgba(56, 191, 245, 0.644), #1a75fd9c), url(../imagens/prevecovid.webp);
+    background: linear-gradient(to right, rgba(25, 255, 236, 0.507), #1a75fd9c), url(../imagens/prevecovid.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{ /*Menu da página inicial*/
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{ /*Textos do menu*/
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav > a:hover{ /*O hover permite a criação de diversos efeitos interessantes em uma página HTML*/
+    text-decoration: underline;
+}
+
+header .textos-header{ /*Alinhamento dos textos da header*/
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{ /*Nome do site e slogan*/
+    font-size: 50px;
+    color: #fff;
+}
+
+.textos-header h2{ /*Nome do site e slogan*/
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+.fundo-letra{ /*A classe fundo-letra e fundo-letra2 define a cor e coloca uma sombra no texto */
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.fundo-letra2{
+    color: white; text-shadow: black 0.1em 0.1em 0.1em;
+}
+
+.wave{ /*Efeito da onda que separa o menu do resto do site*/
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.contet-fk{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de observe-se */
+    width: 280px;
+    padding: 1em;
+    margin: 1em;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    text-align: justify;
+}
+
+.contenedor-fg{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de prevenir é importante */
+
+    width: 950px; /*Largura da caixa de texto*/
+    padding: 1em; /*Preenchimento do site*/
+    margin:  1em;  /*Margem*/
+    display: inline-block; /*Quando você passa a regra display:block o elemento fica empilhado enquanto que display:inline ele fica alinhado (no meio do texto)*/
+    vertical-align: top; /*Alinhamento vertical do texto*/
+    text-align: center;  /*Alinhar texto no centro da página*/
+    text-align: justify; /*Justicando o texto*/
+}
+
+
+.linha{ /*Tamanho e cor da linha embaixo do formulário*/
+    width: 450px;
+    background-color: black;
+}
+
+.logo-marista{ /*Logo do marista centralizada*/
+   align-self: center;
+}
+
+
+
+
+/*Menu prevenção*/
+
+.container {
+  width: 100%;
+  height: 480px;
+}
+
+
+
+.center {
+  fill:  #7386D5;
+}
+
+.pointer {
+  fill: #fff;
+  stroke: #A0b6f5;
+  stroke-width: 2;
+}
+
+.nav-copy {
+  font-family: 'inter';
+  fill: #fff;
+  fill-opacity: 1;
+  -webkit-transition: all 250ms ease-in;
+  transition: all 250ms ease-in;
+}
+.nav-copy.changing {
+  fill-opacity: 0;
+}
+
+.service {
+  cursor: pointer;
+}
+.service text {
+  font-size: 20px;
+  font-family: 'inter';
+  text-anchor: middle;
+}
+.service .icon-wrapper {
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+.service .icon-wrapper, .service .icon-wrapper > * {
+  -webkit-transition: all 250ms ease-in;
+  transition: all 250ms ease-in;
+}
+.service circle {
+  fill: #7386D5;
+}
+.service circle.shadow {
+  fill-opacity: 0;
+  -webkit-filter: url(#service-shadow);
+          filter: url(#service-shadow);
+}
+.service use {
+  fill: #fff;
+}
+.service text {
+  fill:  #7386D5;
+}
+.service.active .icon-wrapper, .service:hover .icon-wrapper {/*ícon*/
+  -webkit-transform: scale(1.15) translateY(-5px);
+          transform: scale(1.15) translateY(-5px);
+}
+.service.active .icon-wrapper, .service.active .icon-wrapper > *, .service:hover .icon-wrapper, .service:hover .icon-wrapper > * {/*transição de ícon*/
+  -webkit-transition: all 250ms ease-out;
+  transition: all 250ms ease-out;
+}
+.service.active .icon-wrapper circle.shadow, .service:hover .icon-wrapper circle.shadow {/*opaciadade do circle*/
+  fill-opacity: 0.4;
+}
+.service.active text, .service:hover text {/*troca cor do texto menu*/
+  fill: #ff2c2c;
+  font-weight: bold;
+}
