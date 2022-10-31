@@ -82,36 +82,102 @@ header .textos-header{ /*Alinhamento dos textos da header*/
     width: 100%;
 }
 
-
-
 .contet-fk{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de observe-se */
-    width: 280px;
+    width: 350px;
     padding: 1em;
     margin: 1em;
     display: inline-block;
     vertical-align: top;
     text-align: center;
     text-align: justify;
+    
 }
 
-.contenedor-fg{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de prevenir é importante */
+.contenedor-fg{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de prevenir-se */
 
-    width: 950px; /*Largura da caixa de texto*/
-    padding: 1em; /*Preenchimento do site*/
-    margin:  1em;  /*Margem*/
-    display: inline-block; /*Quando você passa a regra display:block o elemento fica empilhado enquanto que display:inline ele fica alinhado (no meio do texto)*/
-    vertical-align: top; /*Alinhamento vertical do texto*/
-    text-align: center;  /*Alinhar texto no centro da página*/
-    text-align: justify; /*Justicando o texto*/
+  width: 350px;
+  padding: 1em;
+  margin: 1em;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  text-align: justify;
+  
+}
+
+.contenedor-fc{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de covid */
+
+  width: 350px;
+  padding: 1em;
+  margin: 1em;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  text-align: justify;
+  
+}
+.contenedor-fa{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de como se espalha */
+
+  width: 500px;
+    padding: 3em;
+    margin-left: 3em;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    text-align: justify;
+   
 }
 
 
-.linha{ /*Tamanho e cor da linha embaixo do formulário*/
-    width: 450px;
-    background-color: black;
+.contet-fz{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de observe-se */
+  width: 250px;
+  padding: 1em;
+  margin: 1em;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  text-align: justify;
+  
 }
 
-.logo-marista{ /*Logo do marista centralizada*/
+.contenedor-fx{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de prevenir-se */
+
+width: 250px;
+padding: 1em;
+margin: 1em;
+display: inline-block;
+vertical-align: top;
+text-align: center;
+text-align: justify;
+
+}
+
+.contenedor-fj{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de covid */
+
+width: 250px;
+padding: 1em;
+margin: 1em;
+display: inline-block;
+vertical-align: top;
+text-align: center;
+text-align: justify;
+
+}
+
+.contenedor-fm{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de covid */
+
+  width: 250px;
+  padding: 1em;
+  margin: 1em;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  text-align: justify;
+  
+  }
+
+
+.mensagem{ /*Logo do marista centralizada*/
    align-self: center;
 }
 
@@ -123,6 +189,7 @@ header .textos-header{ /*Alinhamento dos textos da header*/
 .container {
   width: 100%;
   height: 480px;
+  align: right;
 }
 
 
@@ -192,4 +259,91 @@ header .textos-header{ /*Alinhamento dos textos da header*/
 .service.active text, .service:hover text {/*troca cor do texto menu*/
   fill: #ff2c2c;
   font-weight: bold;
+}
+
+
+
+
+/*button covid*/
+.wrap {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  min-width: 200px;
+  min-height: 60px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: #7386D5;
+background: linear-gradient(90deg, rgba(115,134,213, 0.8) 0%, rgba(79,209,197,1) 100%);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+  }
+
+button::before {
+content: '';
+  border-radius: 1000px;
+  min-width: calc(200px + 12px);
+  min-height: calc(60px + 12px);
+  border: 6px solid #7386D5;
+  box-shadow: 0 0 60px rgba(0,255,203,.64);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+}
+
+.button:hover, .button:focus {
+  color: #313133;
+  transform: translateY(-6px);
+}
+
+button:hover::before, button:focus::before {
+  opacity: 1;
+}
+
+button::after {
+  content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  border: 6px solid #00FFCB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+}
+
+button:hover::after, button:focus::after {
+  animation: none;
+  display: none;
+}
+
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
 }

@@ -72,8 +72,8 @@ header .textos-header{ /*Alinhamento dos textos da header*/
 .fundo-letra{ /*A classe fundo-letra e fundo-letra2 define a cor e coloca uma sombra no texto */
     color: white; text-shadow: black 0.1em 0.1em 0.2em;
     @font-face {
-        font-family:PatuaOne-Regular/PatuaOne-Regular;
-        src: url();
+        font-family:Patua One;
+        src: url('PatuaOne-Regular.ttf1');
     }
 }
 
