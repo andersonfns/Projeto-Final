@@ -59,21 +59,23 @@ header .textos-header{ /*Alinhamento dos textos da header*/
 }
 
 .textos-header h1{ /*Nome do site e slogan*/
-    font-size: 50px;
+    font-size: 55px;
     color: #fff;
+    font-family: 'Patua One', cursive;
 }
 
 .textos-header h2{ /*Nome do site e slogan*/
     font-size: 30px;
     font-weight: 300;
     color: #fff;
+    font-family: 'Almarai', sans-serif;
 }
 .fundo-letra{ /*A classe fundo-letra e fundo-letra2 define a cor e coloca uma sombra no texto */
     color: white; text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .fundo-letra2{
-    color: white; text-shadow: black 0.1em 0.1em 0.1em;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .wave{ /*Efeito da onda que separa o menu do resto do site*/
@@ -82,24 +84,6 @@ header .textos-header{ /*Alinhamento dos textos da header*/
     width: 100%;
 }
 
-.contenedor-sobre-nosotros{ /*Posiciona as informações de serviços prestados */
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-
-.imagen-about-us{ /*Para ajustar tamanho da imagem */
-    width: 48%;
-}
-
-.sobre-nosotros .contenido-textos{ /* Ajusta a largura das informações de serviços prestados */
-    width: 48%;
-}
-
-.contenido-textos h3{ /*Define a margin area na parte inferior de um elemento, usando px para tamanho absoluto */
-    margin-bottom: 15px;
-
-}
 
 .contenedor-fa{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de Coronavírus */
 
@@ -110,9 +94,10 @@ header .textos-header{ /*Alinhamento dos textos da header*/
     vertical-align: top; /*Alinhamento vertical do texto*/
     text-align: center;  /*Alinhar texto no centro da página*/
     text-align: justify; /*Justicando o texto*/
+    font-family: 'DM Sans', sans-serif;
 }
 
-.contet-fb{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de exames */
+.contet-fb{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de origem */
     width: 280px;
     padding: 1em;
     margin: 1em;
@@ -120,6 +105,7 @@ header .textos-header{ /*Alinhamento dos textos da header*/
     vertical-align: top;
     text-align: center;
     text-align: justify;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .contet-fc{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto da covid */
@@ -130,6 +116,7 @@ header .textos-header{ /*Alinhamento dos textos da header*/
     vertical-align: top;
     text-align: center;
     text-align: justify;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .contet-fd{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de informação OBS:(O display inline-block foi usado para que todos os textos fiquem na mesma linha e um ao lado do outro). */
@@ -140,60 +127,140 @@ header .textos-header{ /*Alinhamento dos textos da header*/
     vertical-align: top;
     text-align: center;
     text-align: justify;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .contenedor-fe{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de Coronavírus */
-
-    width: 550px; /*Largura da caixa de texto*/
-    padding: 1em; /*Preenchimento do site*/
-    margin:  1em;  /*Margem*/
-    display: inline-block; /*Quando você passa a regra display:block o elemento fica empilhado enquanto que display:inline ele fica alinhado (no meio do texto)*/
-    vertical-align: top; /*Alinhamento vertical do texto*/
-    text-align: center;  /*Alinhar texto no centro da página*/
-    text-align: justify; /*Justicando o texto*/
+    width: 500px;
+    padding: 3em;
+    margin-left: 3em;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    text-align: justify;
+    font-family: 'DM Sans', sans-serif;
 }
 
-.contet-fk{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de exames */
-    width: 280px;
+.contet-fk{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de Sintomas observese */
+    width: 220px;
+    margin-left: 1em;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    text-align: justify;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+.contet-fh{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de Sintomas observese */
+    width: 230px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    text-align: justify;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.contenedor-fg{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de Sintomas */
+    width: 350px;
     padding: 1em;
     margin: 1em;
     display: inline-block;
     vertical-align: top;
     text-align: center;
     text-align: justify;
-}
-
-.contenedor-fg{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de Coronavírus */
-
-    width: 950px; /*Largura da caixa de texto*/
-    padding: 1em; /*Preenchimento do site*/
-    margin:  1em;  /*Margem*/
-    display: inline-block; /*Quando você passa a regra display:block o elemento fica empilhado enquanto que display:inline ele fica alinhado (no meio do texto)*/
-    vertical-align: top; /*Alinhamento vertical do texto*/
-    text-align: center;  /*Alinhar texto no centro da página*/
-    text-align: justify; /*Justicando o texto*/
+    font-family: 'DM Sans', sans-serif;
 }
 
 
-.linha{ /*Tamanho e cor da linha embaixo do formulário*/
-    width: 450px;
-    background-color: black;
-}
 
-.logo-marista{ /*Logo do marista centralizada*/
+
+.mensagem{ /*Logo  centralizada*/
    align-self: center;
 }
 
-.titulo-formulario{ /* Aqui eu centralizei o titúlo do formulário*/
-    text-align: center;
-    border: 1px;
-    
-}
 
-.dengue{
-    color:rgb(5,119,196);
-}
-.observe{
-    height:1px;
-    width: 1px;
-}
+/*button covid*/
+.wrap {
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    min-width: 200px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #313133;
+    background: #7386D5;
+  background: linear-gradient(90deg, rgba(115,134,213, 0.8) 0%, rgba(79,209,197,1) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    }
+  
+  button::before {
+  content: '';
+    border-radius: 1000px;
+    min-width: calc(200px + 12px);
+    min-height: calc(60px + 12px);
+    border: 6px solid #7386D5;
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+  }
+  
+  .button:hover, .button:focus {
+    color: #313133;
+    transform: translateY(-6px);
+  }
+  
+  button:hover::before, button:focus::before {
+    opacity: 1;
+  }
+  
+  button::after {
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 6px solid #00FFCB;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+  }
+  
+  button:hover::after, button:focus::after {
+    animation: none;
+    display: none;
+  }
+  
+  @keyframes ring {
+    0% {
+      width: 30px;
+      height: 30px;
+      opacity: 1;
+    }
+    100% {
+      width: 230px;
+      height: 230px;
+      opacity: 0;
+    }
+  }
+  

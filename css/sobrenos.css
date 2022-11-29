@@ -50,22 +50,51 @@ nav > a{
     margin-top: 20px;
 }
 
-/*custumização dos cards*/
-
-.card1{
-   background: linear-gradient(45deg, rgba(114, 235, 219, 0.836), rgb(81, 177, 233), rgba(114, 241, 224, 0.836));
+.contenedor-fg{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa Emilly Teruel */
+    width: 250px;
+    padding: 1em;
+    margin: 2em;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    text-align: justify;
+    font-family: 'DM Sans', sans-serif;
 }
 
-.card2{
-    background: linear-gradient(45deg, rgba(114, 235, 219, 0.836), rgb(81, 177, 233), rgba(114, 241, 224, 0.836));
+
+.contenedor-fa{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa Emilly Cordeiro */
+    width: 250px;
+    padding: 1em;
+    margin: 2em;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    text-align: justify;
+    font-family: 'DM Sans', sans-serif;
 }
 
-.card3{
-    background: linear-gradient(45deg, rgba(114, 235, 219, 0.836), rgb(81, 177, 233), rgba(114, 241, 224, 0.836));
+
+.contenedor-fb{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa Anderson */
+    width: 250px;
+    padding: 1em;
+    margin: 2em;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    text-align: justify;
+    font-family: 'DM Sans', sans-serif;
 }
 
-.card4{
-    background: linear-gradient(45deg, rgba(114, 235, 219, 0.836), rgb(81, 177, 233), rgba(114, 241, 224, 0.836));
+
+.contenedor-fl{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa Giovanna*/
+    width: 250px;
+    padding: 1em;
+    margin: 2em;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    text-align: justify;
+    font-family: 'DM Sans', sans-serif;
 }
 
 /*formatação dos nomes*/

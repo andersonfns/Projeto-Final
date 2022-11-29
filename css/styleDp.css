@@ -16,6 +16,7 @@
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
+    font-family: 'Patua One', cursive;
 }
 
 header{ /*Menu e topo da página*/
@@ -23,8 +24,8 @@ header{ /*Menu e topo da página*/
     height: 600px;
     background: #076585; 
      /*Efeito degrade no menu*/
-    background: -webkit-linear-gradient(to right, rgba(56, 191, 245, 0.644), #1a75fd9c), url(../imagens/prevecovid.webp);
-    background: linear-gradient(to right, rgba(25, 255, 236, 0.507), #1a75fd9c), url(../imagens/prevecovid.webp);
+    background: -webkit-linear-gradient(to right, rgba(56, 191, 245, 0.644), #1a75fd9c), url(../imagens/dengue4.webp);
+    background: linear-gradient(to right, rgba(25, 255, 236, 0.507), #1a75fd9c), url(../imagens/dengue4.webp);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -94,6 +95,8 @@ header .textos-header{ /*Alinhamento dos textos da header*/
     text-align: justify;
     font-family: 'DM Sans', sans-serif;
     
+    
+    
 }
 
 .contenedor-fg{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de prevenir-se */
@@ -109,7 +112,7 @@ header .textos-header{ /*Alinhamento dos textos da header*/
   
 }
 
-.contenedor-fc{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de covid */
+.contenedor-fc{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de Dengue */
 
   width: 350px;
   padding: 1em;
@@ -136,9 +139,9 @@ header .textos-header{ /*Alinhamento dos textos da header*/
 
 
 
-/*textos Vacinas*/
+/*textos Dicas*/
 
-.contet-fz{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de Janssen */
+.contet-fz{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de Cautela */
   width: 270px;
   padding: 1em;
   margin: 1em;
@@ -150,7 +153,7 @@ header .textos-header{ /*Alinhamento dos textos da header*/
   
 }
 
-.contenedor-fx{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de Pfizer */
+.contenedor-fx{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de Água */
 
 width: 270px;
 padding: 1em;
@@ -163,7 +166,7 @@ font-family: 'DM Sans', sans-serif;
 
 }
 
-.contenedor-fj{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de Astrazenaca */
+.contenedor-fj{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de Reciclar */
 
 width: 270px;
 padding: 1em;
@@ -176,7 +179,7 @@ font-family: 'DM Sans', sans-serif;
 
 }
 
-.contenedor-fm{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de Coronavac */
+.contenedor-fm{ /*Largura, alinhamento de texto, alinhamento na vertical, margem e preenchimento da caixa de texto de Plantas */
 
   width: 270px;
   padding: 1em;
