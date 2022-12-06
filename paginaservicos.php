@@ -13,11 +13,12 @@
   <body>
   <header>
     <nav>
-      <a href="paginainicial1.html">Início</a>
-      <a href="paginaservicos.html">Doenças e Prevenções</a>
-      <a href="form.html">Denúncias</a>
-      <a href="sobrenos.html">Sobre nós</a>
-      <a href="paginalogin.html">Logar</a>
+    <a href="paginainicial1.php">Início</a>
+    <a href="paginainicial1.php">Início</a>
+            <a href="paginaservicos.php">Doenças e Prevenções</a>
+            <a href="registro.php">Denúncias</a>
+            <a href="sobrenos.php">Sobre nós</a>
+            <a href="login.php">Perfil👤</a>
       
   </nav>
   <selection class="textos-header">
@@ -57,14 +58,14 @@
         <br> 
         <h5 class="linha">    </h5>
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-          <a href="covidpagina.html"> <button class="btn btn-primary me-md-2" class="button">Saber mais</button></a></div>
+          <a href="covidpagina.php"> <button class="btn btn-primary me-md-2" class="button">Saber mais</button></a></div>
          <h2 style="color:rgb(5,119,196)"> Prevenção</h2>
          <br>
          <img class="previneC" src="imagens/previneC.png" width="300">
          <p class="textPrevineC">Saber se prevenir é importante para sua saúde, evitando que você possa ser infectado e espalhar o contágio.</p>
          <h5 class="linha">    </h5>
          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-          <a href="preveCovid1.html"> <button class="btn btn-primary me-md-2" class="button">Saber mais</button></a> </div>
+          <a href="preveCovid1.php"> <button class="btn btn-primary me-md-2" class="button">Saber mais</button></a> </div>
         </div>
          
         <div class="content">
@@ -81,7 +82,7 @@
         <br>
         <h5 class="linha"> </h5>
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-          <a href="denguepagina.html"> <button class="btn btn-primary me-md-2" class="button">Saber mais</button></a> </div>
+          <a href="denguepagina.php"> <button class="btn btn-primary me-md-2" class="button">Saber mais</button></a> </div>
          <h2 style="color:rgb(5,119,196)" class="uri1">Prevenção</h2>
          <br>
          <img class="prevencaoD" src="imagens/prevencaoD.png" width="300">
@@ -89,7 +90,7 @@
          <br>
          <h5 class="linha"> </h5>
          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-          <a href="preveDengue.html"> <button class="btn btn-primary me-md-2" class="button">Saber mais</button></a> </div>     
+          <a href="preveDengue.php"> <button class="btn btn-primary me-md-2" class="button">Saber mais</button></a> </div>     
         </article>
         </div>
          
@@ -104,7 +105,7 @@
         <br>
         <h5 class="linha"> </h5>
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-          <a href="variolapagina.html">  <button class="btn btn-primary me-md-2" type="button">Saber mais</button> </div>  </a>
+          <a href="variolapagina.php">  <button class="btn btn-primary me-md-2" type="button">Saber mais</button> </div>  </a>
         <br>
          <img class="variola2" src="imagens/variola2.jpg" width="300">
          <p class="textvariola2">A maneira mais segura de se prevenir contra a varíola dos macacos é evitar o contato direto com pessoas contaminadas, lavar as mãos com água e sabão e recomenda-se o uso de máscara de proteção cobrindo nariz e boca.</p>

@@ -15,11 +15,11 @@
     <body>
             <header>
             <nav> <!-- Menu-->
-            <a href="paginainicial1.html">Início</a>
-            <a href="paginaservicos.html">Doenças e Prevenções</a>
-            <a href="form.html">Denúncias</a>
-            <a href="sobrenos.html">Sobre nós</a>
-            <a href="paginalogin.html">Logar</a>
+            <a href="paginainicial1.php">Início</a>
+            <a href="paginaservicos.php">Doenças e Prevenções</a>
+            <a href="registro.php">Denúncias</a>
+            <a href="sobrenos.php">Sobre nós</a>
+            <a href="login.php">Perfil👤</a>
             </nav>
 
             <!--Nome do site e slogan -->
@@ -46,19 +46,19 @@
                   <div>  
                         <!--Icone de Covid-19 -->                                      
                         <h6 style="color:rgb(115,134,213)" align="left"> 
-                          <a href="covidpagina.html">  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-virus" viewBox="0 0 16 16">
+                          <a href="covidpagina.php">  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-virus" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M8 0a1 1 0 0 1 1 1v1.402c0 .511.677.693.933.25l.7-1.214a1 1 0 0 1 1.733 1l-.701 1.214c-.256.443.24.939.683.683l1.214-.701a1 1 0 0 1 1 1.732l-1.214.701c-.443.256-.262.933.25.933H15a1 1 0 1 1 0 2h-1.402c-.512 0-.693.677-.25.933l1.214.701a1 1 0 1 1-1 1.732l-1.214-.7c-.443-.257-.939.24-.683.682l.701 1.214a1 1 0 1 1-1.732 1l-.701-1.214c-.256-.443-.933-.262-.933.25V15a1 1 0 1 1-2 0v-1.402c0-.512-.677-.693-.933-.25l-.701 1.214a1 1 0 0 1-1.732-1l.7-1.214c.257-.443-.24-.939-.682-.683l-1.214.701a1 1 0 1 1-1-1.732l1.214-.701c.443-.256.261-.933-.25-.933H1a1 1 0 1 1 0-2h1.402c.511 0 .693-.677.25-.933l-1.214-.701a1 1 0 1 1 1-1.732l1.214.701c.443.256.939-.24.683-.683l-.701-1.214a1 1 0 0 1 1.732-1l.701 1.214c.256.443.933.261.933-.25V1a1 1 0 0 1 1-1Zm2 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM6 7a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm1 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm5-3a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/></a>
                           </svg> Covid-19</h6>
                         <br>
                             <!--Icone de Dengue-->
                             <h6 style="color:rgb(115,134,213)" align="left"> 
-                           <a href="denguepagina.html"><img   src="imagens/mosquito.webp"  width="50" height="50" class="dengue"></a>
+                           <a href="denguepagina.php"><img   src="imagens/mosquito.webp"  width="50" height="50" class="dengue"></a>
                             </svg> Dengue</h6>
                             <br>
                                       
                                    <!--Icone de Unidades de Saúde-->
                                    <h6 style="color:rgb(115,134,213)" align="left">
-                                    <a href="paginamapa.html"> <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-house-heart" viewBox="0 0 16 16">
+                                    <a href="paginamapa.php"> <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-house-heart" viewBox="0 0 16 16">
                                    <path d="M8 6.982C9.664 5.309 13.825 8.236 8 12 2.175 8.236 6.336 5.309 8 6.982Z"/>
                                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.707L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.646a.5.5 0 0 0 .708-.707L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>   </a>                 
                                    </svg> Unidades de Saúde</h6>
@@ -115,7 +115,7 @@
       <br>
       <center>
       <div class="wrap">
-        <a href="covidpagina.html"> <button class="button">Cadastrar ou logar</button></a>
+        <a href="../PROJETO-FINAL/login.php"><button class="button">Cadastrar ou logar</button></a>
        </div>
        <br>
        <br>

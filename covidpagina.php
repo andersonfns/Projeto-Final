@@ -2,9 +2,9 @@
 <head lang="pt-br">
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Espaço Saúde|Varíola</title>
+    <title>Espaço Saúde|Covid-19</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/styleV.css'> <!--CSS da página -->
+    <link rel='stylesheet' type='text/css' media='screen' href='css/styleC.css'> <!--CSS da página -->
     <link rel="shortcut icon" href="imagens/logoES.png" type="image/x-icon"> <!--Logo na aba-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> <!--CSS o bootstrap -->
     <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet"><!--Fonte da página Título-->
@@ -14,16 +14,16 @@
     <body>
             <header>
             <nav> <!-- Menu-->
-            <a href="paginainicial1.html">Início</a>
-            <a href="paginaservicos.html">Doenças e Prevenções</a>
-            <a href="form.html">Denúncias</a>
-            <a href="sobrenos.html">Sobre nós</a>
-            <a href="paginalogin.html">Logar</a>
+            <a href="paginainicial1.php">Início</a>
+            <a href="paginaservicos.php">Doenças e Prevenções</a>
+            <a href="registro.php">Denúncias</a>
+            <a href="sobrenos.php">Sobre nós</a>
+            <a href="login.php">Perfil👤</a>
             </nav>
 
             <!--Nome do site e slogan -->
               <selection class="textos-header"> 
-              <h1 class="fundo-letra">Varíola do macaco</h1>
+              <h1 class="fundo-letra">Covid-19</h1>
               <h2 class="fundo-letra2">Sua saúde em primeiro lugar</h2>
               </selection>
 
@@ -35,30 +35,29 @@
                                       
                                   
                                             <center>
-                                             <!-- Textos Varíola-->  
+                                             <!-- Textos Coronavírus-->  
                                              <article class="contenedor-fa"> 
-                                             <h4 style="color:rgb(5,119,196)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Varíola</h4>
+                                             <h4 style="color:rgb(5,119,196)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Coronavírus</h4>
                                              <br>
-                                             <p>A varíola dos macacos é uma doença causada pelo vírus hMPXV (Human Monkeypox Virus, na sigla em inglês), é transmitido dos animais para os seres humanos. Hoje, o contágio também acontece de pessoa para pessoa.</p>
+                                             <p> A Covid-19 é uma infecção respiratória aguda causada pelo coronavírus SARS-CoV-2, potencialmente grave, de elevada transmissibilidade e de distribuição global.</p>
                                              </article>
                                                           <!-- Textos Origem--> 
                                                           <article class="contet-fb">
                                                           <h4 class="titulo-1" style="color:rgb(5,119,196)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Origem</h4>
                                                           <br>
-                                                          <p> Se origina da descoberta inicial do vírus em macacos em um laboratório dinamarquês em 1958. O primeiro caso humano foi identificado em uma criança na República Democrática do Congo em 1970.</p>
+                                                          <p> Sua primeira aparição foi na cidade de Wuhan em 2019 e agora ocorre até os dias atuais, se tornou globalizada. </p>
                                                           </article>
                                                                                  <!-- Textos Chegada no Brasil-->
                                                                                  <article class="contet-fc">
                                                                                  <h4 style="color:rgb(5,119,196)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;No Brasil</h4>
                                                                                  <br>
-                                                                                 <p>Descoberto pela primeira vez em 1958, quando dois surtos de uma doença semelhante à varíola ocorreram em colônias de macacos mantidos para pesquisa.</p>
+                                                                                 <p>No dia 07 de fevereiro, 34 brasileiros foram trazidos da China para o Brasil e após 19 dias foi confirmado o caso no Brasil.</p>
                                                                                  </article>
-<!-- Texto Vacina-->
+<!-- Texto Impactos-->
 <article class="contet-fd">
-<h4 style="color:rgb(5,119,196)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Vacina</h4>
+<h4 style="color:rgb(5,119,196)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Impactos</h4>
 <br>
-<p>O objetivo é avaliar a efetividade da vacina Jynneos/MVA-BN®️ contra a varíola dos macacos na população brasileira, ou seja, se a vacina reduz a incidência da doença e a progressão à doença grave. A população-alvo do estudo será formada por pessoas mais afetadas e com maior risco para a doença.
-</p>
+<p>Os efeitos da COVID-19 no aumento das desigualdades existentes foram já documentados, por exemplo, com aqueles em empregos não especializados ou menor acesso à tecnologia.</p>
 </article>
 </center>
 <br>
@@ -67,14 +66,15 @@
 <h5 class="linha"> </h5>
 
 
-<!--Como se espalha-->
+<!--Variantes-->
 <article class="contenedor-fe"> 
-  <h3 style="color:rgb(5,119,196)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Como se espalha</h3>
+  <h3 style="color:rgb(5,119,196)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Variantes</h3>
   <br>
-  <p> A varíola dos macacos é transmitida, de acordo com a Organização Mundial de Saúde (OMS) por meio de: </p>
-    <p>	contato próximo com as lesões de pele,
-      por secreções respiratórias ou
-      objetos usados por uma pessoa que está infectada. </p> 
+  <p> Variantes de preocupação: quando o vírus sofre mutações que permitem determinadas vantagens em relação às variantes anteriores, como aumento da capacidade de transmissão, doença mais grave ou escape imune. É o caso da Alfa, Beta, Gama, Delta e Ômicron. 
+   <p>Os tipos de coronavírus conhecidos até o momento são: </p>
+    <p>	⚙ Alpha coronavírus 229E e NL63; </p> 
+    <p> ⚙ Beta coronavírus OC43 e HKU1; </p>
+    <p>	⚙ SARS-CoV (causador da Síndrome Respiratória)</p>
   </article>
 
                                                            <!--esconde--> 
@@ -90,14 +90,6 @@
                                                           <br>
                                                           <h4 class="linha"> </h4>
                                                           <br> 
-                                                          <br>
-                                                          <br>
-                                                          <br>
-                                                          <br>
-                                                          <br>
-                                                          <br>
-                                                          <br>
-                                                          
   <center>                                   
   <!-- Textos observe-se -->
   <article class="contet-fk">
@@ -105,11 +97,11 @@
   <h4 style="color:rgb(5,119,196)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Observe-se</h4>
   <br>
   <br>
-  <p> - Erupção cutânea: 18,7%</p>
-  <p> - Cefaleia: 14,6% </p>
-  <p> - Febre: 11,6% </p>
-  <p> - Astenia/fraqueza: 9,2%</p>
-  <p> - Dor muscular: 6,8%</p>
+  <p> - Falta de ar</p>
+  <p> - Dor de cabeça</p>
+  <p> - Tosse</p>
+  <p> - Coriza</p>
+  <p> - Confusão Mental</p>
   </article>
 
   <!-- Textos observe-se -->
@@ -119,20 +111,22 @@
     <br>
     <br>
     <br>
-    <p> - Dor de garganta: 6,7% </p>
-    <p> - Suor/calafrios: 5,5% </p>
-    <p> - Náusea/vômito: 3,1%  </p>
-    <p> - Sinais hemorrágicos: 0,7%</p>
-    <p> - adenomegalia: 7,8% </p>
+    <p> - Febre/Calafrios </p>
+    <p> - Dor de garganta </p>
+    <p> - 48hrs de febre persistente </p>
+    <p> - Sonolência excessiva</p>
+    <p> - Disturbio olfato/paladar </p>
     </article>
   
-   <!--Tratamento-->
+   <!--Prevenção-->
 <article class="contenedor-fg"> 
-  <h4 style="color:rgb(5,119,196)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Tratamento</h4>
+  <h4 style="color:rgb(5,119,196)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Prevenção</h4>
   <br>
-  <p>A varíola não tem cura e os tratamentos existentes somente aliviam os sintomas da doença, sem a possibilidade de matar o vírus e impedir, por exemplo, o surgimento das pústulas características.</p><p> É autolimitada, ou seja, se cura de maneira espontânea. Comumente, os sintomas começam depois do tempo de incubação e permanecem por duas a quatro semanas.
-    A melhor forma de prevenir a doença é por meio da vacinação.</p>
-    </p>
+  <p>Para mais informações acesse nossa página de prevenção contra o vírus. </p>
+  <p>Saber se proteger é importante, basta clicar no botão abaixo para obter dicas.  </p>
+  <br><br><br>
+  <div class="wrap">
+    <a href="preveCovid1.php"> <button class="button">Prevenção</button></a>
    </div>
     
   </article>
@@ -141,7 +135,9 @@
 <article class="contenedor-fg"> 
   <h4 style="color:rgb(5,119,196)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Sintomas</h4>
   <br>
-  <p>Os sintomas da varíola dos macacos costumam ser leves, sendo necessários o cuidado e a observação das lesões. Em geral, o maior risco de agravamento da doença varíola dos macacos acontece, para pessoas imunossuprimidas com HIV/Aids, leucemia, linfoma, metástase, transplantados, pessoas com doenças autoimunes, gestantes, lactantes e crianças com menos de 8 anos de idade.</p>
+  <p> Na maioria dos casos, a doença é sem gravidade e os sintomas do coronavírus são febre, tosse, dificuldade para respirar, dores musculares, dor de cabeça, dor de garganta,
+    nariz escorrendo e diarreia. Na forma grave, que acomete cerca de um quarto dos infectados, há uma piora do quadro respiratório, com desenvolvimento de pneumonia, 
+    podendo levar à insuficiência respiratória.</p>
     
   </article>
 </center>
@@ -208,16 +204,16 @@
   margin-right: 0%;
   position: absolute; 
 	right: 90px; /* posiciona a 90px para a esquerda */ 
-	top: 1060px; /* posiciona a 70px para baixo */
+	top: 1000px; /* posiciona a 70px para baixo */
 }
 
     </style>
   <div class="corpo">
     <section class="carrousel">
       <div class="carrousel__wrapper">
-        <img src="../Projeto-Final/imagens/variola3.jpeg" class="carrousel__wrapper-item" />
-        <img src="../Projeto-Final/imagens/variola4.jpg" class="carrousel__wrapper-item" />
-        <img src="../Projeto-Final/imagens/variola5.jpg" class="carrousel__wrapper-item" />
+        <img src="../Projeto-Final/imagens/covid5.jpg" class="carrousel__wrapper-item" />
+        <img src="../Projeto-Final/imagens/covid4.jpg" class="carrousel__wrapper-item" />
+        <img src="../Projeto-Final/imagens/covid6.jpg" class="carrousel__wrapper-item" />
       </div>
     </section>
     </div>

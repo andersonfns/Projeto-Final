@@ -14,11 +14,11 @@
     <body>
             <header>
             <nav> <!-- Menu-->
-            <a href="paginainicial1.html">Início</a>
-            <a href="paginaservicos.html">Doenças e Prevenções</a>
-            <a href="form.html">Denúncias</a>
-            <a href="sobrenos.html">Sobre nós</a>
-            <a href="paginalogin.html">Logar</a>
+            <a href="paginainicial1.php">Início</a>
+            <a href="paginaservicos.php">Doenças e Prevenções</a>
+            <a href="registro.php">Denúncias</a>
+            <a href="sobrenos.php">Sobre nós</a>
+            <a href="login.php">Perfil👤</a>
             </nav>
 
             <!--Nome do site e slogan -->
@@ -126,7 +126,7 @@
   <p>Saber se proteger é importante, basta clicar no botão abaixo para obter dicas.  </p>
   <br><br><br>
   <div class="wrap">
-    <a href="preveDengue.html"> <button class="button">Prevenção</button></a>
+    <a href="preveDengue.php"> <button class="button">Prevenção</button></a>
    </div>
     
   </article>

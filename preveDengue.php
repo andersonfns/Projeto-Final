@@ -18,11 +18,11 @@
  <body>
             <header>
             <nav> <!-- Menu-->
-            <a href="paginainicial1.html">Início</a>
-            <a href="paginaservicos.html">Doenças e Prevenções</a>
-            <a href="form.html">Denúncias</a>
-            <a href="sobrenos.html">Sobre nós</a>
-            <a href="paginalogin.html">Logar</a>
+            <a href="paginainicial1.php">Início</a>
+            <a href="paginaservicos.php">Doenças e Prevenções</a>
+            <a href="registro.php">Denúncias</a>
+            <a href="sobrenos.php">Sobre nós</a>
+            <a href="login.php">Perfil👤</a>
             </nav>
 
             <!--Nome do site e slogan -->
@@ -643,7 +643,7 @@ setTimeout(function () {
   <br>
   <br>
    <div class="wrap">
-   <a href="denguepagina.html"> <button class="button">Dengue</button></a>
+   <a href="denguepagina.php"> <button class="button">Dengue</button></a>
   </div>
   </article>
   

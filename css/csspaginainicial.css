@@ -154,10 +154,7 @@ header .textos-header{ /*Alinhamento dos textos da header*/
     text-align: justify;
     font-family: 'DM Sans', sans-serif;
 }
-.linha{ /*Tamanho e cor da linha embaixo do formulário*/
-    width: 450px;
-    background-color: black;
-}
+
 
 .mensagem{ /*Logo centralizada*/
    align-self: center;

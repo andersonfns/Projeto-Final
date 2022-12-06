@@ -18,11 +18,12 @@
     <nav>
         
         <!-- Menu-->
-        <a href="paginainicial1.html">Início</a>
-        <a href="paginaservicos.html">Doenças e Prevenções</a>
-        <a href="form.html">Denúncias</a>
-        <a href="sobrenos.html">Sobre nós</a>
-        <a href="paginalogin.html">Logar</a>
+        <a href="paginainicial1.php">Início</a>
+        <a href="paginainicial1.php">Início</a>
+            <a href="paginaservicos.php">Doenças e Prevenções</a>
+            <a href="registro.php">Denúncias</a>
+            <a href="sobrenos.php">Sobre nós</a>
+            <a href="login.php">Perfil👤</a>
         </nav>
 
         <!--Nome do site e slogan -->
@@ -60,7 +61,7 @@
      <h2>Contato</h2>
      <form action="https://api.staticforms.xyz/submit"  method="post" >
         <input type="hidden" name="accessKey" value="578e6636-77ad-46e8-b8da-515406b68735">
-        <input type="hidden" name="redirectTo" value="file:///C:/Users/j.anderson/OneDrive%20-%20Grupo%20Marista/Documents/Projeto-Final/obrigado.html">
+        <input type="hidden" name="redirectTo" value="enviar" >
      <label >Nome</label>
      <input type="text"  id="inputNome" name="name" placeholder="Digite seu nome" required >
      <label >Email</label>
@@ -86,7 +87,7 @@
      <label for="textAreaMensagem" >Mensagem</label>
      <input type="text"  cols="30" rows="10" id="textAreaMensagem" name="message" placeholder="Digite sua mensagem" required maxlength="100" >
     
-     <button  href="form.html"  type="submit">Enviar</button></article>
+        <button  href="form.html"  type="submit">Enviar</button></article>
         <div>
         <br>
         <!-- Logo do mensagem no rodapé da página -->

@@ -17,11 +17,11 @@
  <body>
             <header>
             <nav> <!-- Menu-->
-            <a href="paginainicial1.html">Início</a>
-            <a href="paginaservicos.html">Doenças e Prevenções</a>
-            <a href="form.html">Denúncias</a>
-            <a href="sobrenos.html">Sobre nós</a>
-            <a href="paginalogin.html">Logar</a>
+            <a href="paginainicial1.php">Início</a>
+            <a href="paginaservicos.php">Doenças e Prevenções</a>
+            <a href="registro.php">Denúncias</a>
+            <a href="sobrenos.php">Sobre nós</a>
+            <a href="login.php">Perfil👤</a>
             </nav>
 
             <!--Nome do site e slogan -->
@@ -435,11 +435,9 @@ var tspan_delta = 16;
 
 // nome é usado como título para a bolha
 //icon é o id do símbolo svg correspondente
-<<<<<<< HEAD
 var services_data = [{ name: "Máscara", icon_size }, { name: "Médico", icon_size }, { name: "Vacina", icon_size }, { name: "Local", icon_size }, { name: "Higiene", icon_size }, { name: "Civilizado", icon_size }, { name: "Suspeita", icon_size}];
-=======
-var services_data = [{ name: "Máscara", icon: "validation" }, { name: "Médico", icon: "validation" }, { name: "Vacina", icon: "engineering" }, { name: "Menu 4", icon: "management" }, { name: "Menu 5", icon: "manufacturing" }, { name: "Menu 6", icon: "technical" }, { name: "Menu 7", icon: "process" }];
->>>>>>> b3ec0f6ae539e25bb449583dd147bdcd3b28e387
+
+
 
 var services = document.getElementById("service-collection");
 var nav_container = document.getElementById("circle-nav-services");
@@ -645,7 +643,7 @@ setTimeout(function () {
   <br>
   <br>
    <div class="wrap">
-   <a href="covidpagina.html"> <button class="button">Covid-19</button></a>
+   <a href="covidpagina.php"> <button class="button">Covid-19</button></a>
   </div>
   </article>
   
